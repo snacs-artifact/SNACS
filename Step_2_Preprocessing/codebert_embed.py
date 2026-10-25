@@ -1,5 +1,5 @@
 # codebert_embed.py
-# Step 3: embeds the Solidity source statement of every SDG node with frozen
+# Step 2: embeds the Solidity source statement of every SDG node with frozen
 # microsoft/codebert-base (64 tokens, mean-pooled, fp16) and writes one
 # {ids, emb} file per graph to codebert_final/. Nothing is fitted on the data;
 # the 768->128 projection is learned inside the student.

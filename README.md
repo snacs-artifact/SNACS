@@ -60,7 +60,7 @@ pip install -r requirements-codebert.txt
 
 ## Quick check
 
-Scores the shipped model on the test set (CPU, a few minutes):
+Scores the shipped model on the test set (SNACS row of Table VII; CPU, a few minutes):
 
 ```bash
 conda activate snacs
@@ -106,11 +106,11 @@ its per-contract scores and result files. These commands rebuild the result file
 shipped scores, without retraining (run from the repository root, in `snacs`):
 
 ```bash
-python experiments/rq2_ablation/scripts/make_tables.py --scores-only
-python experiments/rq3_access_patterns/scripts/make_results.py
-python experiments/sensitivity_learning_rate/scripts/make_results.py
-python experiments/sensitivity_split_ratio/scripts/make_results.py
-python experiments/inference_cost/scripts/make_results.py
+python experiments/rq2_ablation/scripts/make_tables.py --scores-only     # Tables VIII and IX
+python experiments/rq3_access_patterns/scripts/make_results.py           # Table X
+python experiments/sensitivity_learning_rate/scripts/make_results.py     # Fig. 7
+python experiments/sensitivity_split_ratio/scripts/make_results.py       # Fig. 8
+python experiments/inference_cost/scripts/make_results.py                # Table XI
 ```
 
 ## Rerunning the experiments
@@ -119,22 +119,22 @@ Run from the repository root in `snacs`, after Step 3 above (unpacked graphs and
 cache).
 
 ```bash
-# RQ2: SDG-relation and teacher/objective ablations
+# RQ2: SDG-relation and teacher/objective ablations (Tables VIII and IX)
 bash experiments/rq2_ablation/run_all.sh
 
-# RQ2: CodeBERT-feature ablation (validation decision, then test)
+# RQ2: CodeBERT-feature ablation (Table IX; validation decision, then test)
 rsync -a --exclude runs --exclude logs --exclude results --exclude 'logs_*' \
     experiments/rq2_codebert_ablation/ experiments/rq2_codebert_ablation_rerun/
 for p in train decide test; do bash experiments/rq2_codebert_ablation_rerun/run_all.sh $p; done
 
-# Number of message-passing steps K (scored on validation)
+# Number of message-passing steps K (Fig. 6; scored on validation)
 for K in 1 2 3 4 5; do for s in 201 202 203 204 205; do
   bash experiments/sensitivity_depth/run_depth_arm.sh $K $s & done; done; wait
 for K in 1 2 3 4 5; do (cd Step_4_Student && python evaluate.py --split val \
   --checkpoints ../experiments/sensitivity_depth/runs/K$K \
   --out ../experiments/sensitivity_depth/runs/K$K/VAL_RESULT.json); done
 
-# Learning rate (the 1e-3 arm reuses the ctrl_full runs of rq2_ablation)
+# Learning rate (Fig. 7; the 1e-3 arm reuses the ctrl_full runs of rq2_ablation)
 for lr in 1e-4 5e-4 5e-3 1e-2; do for s in 201 202 203 204 205; do
   bash experiments/sensitivity_learning_rate/run_lr_arm.sh $lr $s & done; done; wait
 S=experiments/common/score_run.py; R=experiments/sensitivity_learning_rate/results/arms
@@ -144,7 +144,7 @@ for lr in 1e-4 5e-4 5e-3 1e-2; do python $S --checkpoints experiments/sensitivit
   --label lr$lr --out $R/lr$lr.json; done
 python experiments/sensitivity_learning_rate/scripts/make_results.py
 
-# Train+validation : test partition (the paper arm reuses the ctrl_full runs of rq2_ablation)
+# Train+validation : test partition (Fig. 8; the paper arm reuses the ctrl_full runs of rq2_ablation)
 for a in 80_20 70_30; do for s in 201 202 203 204 205; do
   bash experiments/sensitivity_split_ratio/run_split_arm.sh $a $s & done; done; wait
 R=experiments/sensitivity_split_ratio/results/arms
@@ -154,7 +154,7 @@ for a in 80_20 70_30; do python $S --checkpoints experiments/sensitivity_split_r
   --split-file experiments/sensitivity_split_ratio/splits/split_$a.json --label $a --out $R/$a.json; done
 python experiments/sensitivity_split_ratio/scripts/make_results.py
 
-# Processing time per contract (CodeBERT timing needs an otherwise idle GPU)
+# Processing time per contract (Table XI; CodeBERT timing needs an otherwise idle GPU)
 cd experiments/inference_cost/scripts
 python time_sdg.py ../results/sdg_times.json
 python time_pipeline.py ../results/pipeline_times.json
