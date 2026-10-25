@@ -1,0 +1,219 @@
+{
+ "n_test": 121,
+ "warmup_excluded": 5,
+ "torch": "2.9.1+cu128",
+ "python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:21:40) [GCC 14.3.0]",
+ "host": "user",
+ "cpu_threads": 1,
+ "gpu": "NVIDIA A100 80GB PCIe",
+ "sdg_json_read_seconds": {
+  "n": 116,
+  "mean": 0.006730080917397322,
+  "sd": 0.012808120169490211,
+  "median": 0.002191047533415258,
+  "p95": 0.029363671084865928,
+  "min": 0.00015626102685928345,
+  "max": 0.0707932929508388,
+  "total": 0.7806893864180893
+ },
+ "graph_size": {
+  "nodes": {
+   "n": 121,
+   "mean": 479.2809917355372,
+   "sd": 846.503437905408,
+   "median": 193,
+   "p95": 1760,
+   "min": 9,
+   "max": 5102,
+   "total": 57993
+  },
+  "edges": {
+   "n": 121,
+   "mean": 1040.5619834710744,
+   "sd": 1949.5330504703,
+   "median": 378,
+   "p95": 4016,
+   "min": 8,
+   "max": 12884,
+   "total": 125908
+  }
+ },
+ "encoding": {
+  "cpu": {
+   "per_contract": {
+    "n": 116,
+    "mean": 0.008362097800147301,
+    "sd": 0.026834867867988853,
+    "median": 0.002734002540819347,
+    "p95": 0.02016471093520522,
+    "min": 0.0006142298225313425,
+    "max": 0.27376301190815866,
+    "total": 0.970003344817087
+   },
+   "pipeline_load_seconds": 0.06059595895931125,
+   "max_abs_diff_vs_shipped_x": 9.5367431640625e-06,
+   "edges_identical_to_shipped": true
+  },
+  "cuda:0": {
+   "per_contract": {
+    "n": 116,
+    "mean": 0.012275272757537535,
+    "sd": 0.00702577391397356,
+    "median": 0.0098189995624125,
+    "p95": 0.02090116194449365,
+    "min": 0.008690120885148644,
+    "max": 0.05383602296933532,
+    "total": 1.423931639874354
+   },
+   "pipeline_load_seconds": 0.38530480093322694,
+   "max_abs_diff_vs_shipped_x": 0.0,
+   "edges_identical_to_shipped": true,
+   "peak_gpu_mem_bytes": 19587072
+  }
+ },
+ "teacher_seconds_cpu": {
+  "n": 116,
+  "mean": 0.0742090280360446,
+  "sd": 0.16015932823103798,
+  "median": 0.018610891420394182,
+  "p95": 0.4266916010528803,
+  "min": 0.00014626095071434975,
+  "max": 0.9027996240183711,
+  "total": 8.608247252181172
+ },
+ "student_forward": {
+  "cpu": {
+   "checkpoint_load_seconds_per_member": {
+    "n": 5,
+    "mean": 0.049643669230863455,
+    "sd": 0.013716465518514317,
+    "median": 0.042617728002369404,
+    "p95": 0.07390587101690471,
+    "min": 0.04227751004509628,
+    "max": 0.07390587101690471,
+    "total": 0.24821834615431726
+   },
+   "one_member": {
+    "per_contract": {
+     "n": 116,
+     "mean": 0.040054538861270354,
+     "sd": 0.06554304278134085,
+     "median": 0.016791348112747073,
+     "p95": 0.13001755089499056,
+     "min": 0.003988815937191248,
+     "max": 0.4002331669908017,
+     "total": 4.646326507907361
+    }
+   },
+   "ensemble_x5": {
+    "per_contract": {
+     "n": 116,
+     "mean": 0.20191277802825489,
+     "sd": 0.3299259011432951,
+     "median": 0.08683670207392424,
+     "p95": 0.6543458660598844,
+     "min": 0.02122295298613608,
+     "max": 2.012283297954127,
+     "total": 23.421882251277566
+    },
+    "max_abs_diff_vs_FINAL_RESULT": 0.0,
+    "positives_at_0.5": 66,
+    "positives_at_0.5_reference": 66
+   }
+  },
+  "cuda:0": {
+   "checkpoint_load_seconds_per_member": {
+    "n": 5,
+    "mean": 0.17254642625339328,
+    "sd": 0.0012208511815760712,
+    "median": 0.17168811103329062,
+    "p95": 0.1739901159889996,
+    "min": 0.17161347507499158,
+    "max": 0.1739901159889996,
+    "total": 0.8627321312669665
+   },
+   "one_member": {
+    "per_contract": {
+     "n": 116,
+     "mean": 0.11695871811464494,
+     "sd": 0.02310312267772436,
+     "median": 0.12575683800969273,
+     "p95": 0.12629113090224564,
+     "min": 0.006122038932517171,
+     "max": 0.1295501529239118,
+     "total": 13.567211301298812
+    },
+    "peak_gpu_mem_bytes": 318612480,
+    "peak_gpu_reserved_bytes": 423624704
+   },
+   "ensemble_x5": {
+    "per_contract": {
+     "n": 116,
+     "mean": 0.5816932429985047,
+     "sd": 0.08544669698078411,
+     "median": 0.6190157845849171,
+     "p95": 0.6219004120212048,
+     "min": 0.10941014694981277,
+     "max": 0.6273289038799703,
+     "total": 67.47641618782654
+    },
+    "max_abs_diff_vs_FINAL_RESULT": 0.07058716416358946,
+    "positives_at_0.5": 66,
+    "positives_at_0.5_reference": 66,
+    "peak_gpu_mem_bytes": 318616576,
+    "peak_gpu_reserved_bytes": 423624704
+   }
+  }
+ },
+ "parameters": {
+  "config": {
+   "K": 2,
+   "hidden_dim": 256
+  },
+  "in_dim": 32,
+  "text_dim": 768,
+  "text_proj_dim": 128,
+  "checkpoint_keys": [
+   "config",
+   "epoch",
+   "metrics",
+   "model",
+   "optimizer",
+   "val_loss"
+  ],
+  "total_trainable": 1864750,
+  "buffers": 0,
+  "per_module": {
+   "aggr_module": 0,
+   "text_proj": 98688,
+   "node_encoder": 108032,
+   "edge_transforms": 792576,
+   "edge_gate": 6,
+   "gru": 394752,
+   "update_mlp": 66304,
+   "node_risk_head": 33025,
+   "graph_head": 131585,
+   "node_reconstruction_head": 106912,
+   "edge_classifier": 132870
+  },
+  "executed_at_inference": 1525639,
+  "not_executed_at_inference": 339111,
+  "inference_modules": [
+   "text_proj",
+   "node_encoder",
+   "edge_transforms",
+   "edge_gate",
+   "gru",
+   "graph_head"
+  ],
+  "ensemble_x5_total": 9323750,
+  "full_state_dict_bytes": 7484857,
+  "inference_only_state_dict_bytes": 6120745,
+  "pruned_missing_keys": 16,
+  "pruned_unexpected_keys": 0,
+  "pruned_vs_full_max_abs_score_diff_test121": 0.0,
+  "checkpoint_file_bytes": 20010559,
+  "checkpoint_file_bytes_x5": 100052795,
+  "codebert_frozen_params_note": "microsoft/codebert-base, counted in time_codebert.py"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "test_contracts": 121,
+ "rows_ms": {
+  "SDG construction": {
+   "n": 121,
+   "mean": 1699.8084793309874,
+   "median": 1060.6092941015959
+  },
+  "SDG JSON read": {
+   "n": 116,
+   "mean": 6.730080917397322,
+   "median": 2.191047533415258
+  },
+  "Node attribute encoding": {
+   "n": 116,
+   "mean": 8.362097800147302,
+   "median": 2.734002540819347
+  },
+  "CodeBERT statement embedding": {
+   "n": 116,
+   "mean": 84.20915857302667,
+   "median": 28.72332849074155
+  },
+  "Student forward, one member": {
+   "n": 116,
+   "mean": 40.05453886127035,
+   "median": 16.791348112747073
+  },
+  "Student forward, five members": {
+   "n": 116,
+   "mean": 201.91277802825488,
+   "median": 86.83670207392424
+  },
+  "Teacher propagation": {
+   "n": 116,
+   "mean": 74.2090280360446,
+   "median": 18.610891420394182
+  }
+ },
+ "five_member_pipeline_mean_ms": 2001.0225946498135,
+ "share_of_pipeline_percent": {
+  "SDG construction": 84.94699079739578,
+  "SDG JSON read": 0.3363320801769913,
+  "Node attribute encoding": 0.4178912233427679,
+  "CodeBERT statement embedding": 4.208306232932047,
+  "Student forward, five members": 10.090479666152413
+ },
+ "not_in_pipeline_total": [
+  "Student forward, one member",
+  "Teacher propagation"
+ ]
+}

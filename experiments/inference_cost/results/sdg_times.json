@@ -1,0 +1,1912 @@
+{
+ "host": "user",
+ "python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:21:40) [GCC 14.3.0]",
+ "work_dir": "/tmp/rq5_sdg_ufpubtz6",
+ "interpreter_import_baseline_seconds": [
+  0.3858776499982923,
+  0.34591662301681936,
+  0.3482298699673265
+ ],
+ "rows": [
+  {
+   "name": "0x05cd27a978fc9f9919a5f4c5c03e5947ed7d4c4d",
+   "pinned": "0.4.25",
+   "version_used": "0.4.25",
+   "seconds": 0.7419594309758395,
+   "first_attempt_seconds": 0.7419594309758395,
+   "attempts": [
+    [
+     "0.4.25",
+     0.7419594309758395,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x07419940b9a2d1eb54e123bd4853240ffac77186",
+   "pinned": "0.4.18",
+   "version_used": "0.4.18",
+   "seconds": 1.4944692479912192,
+   "first_attempt_seconds": 1.4944692479912192,
+   "attempts": [
+    [
+     "0.4.18",
+     1.4944692479912192,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": false
+  },
+  {
+   "name": "0x0FDfcfc398Ccc90124a0a41d920d6e2d0bD8CcF5",
+   "pinned": "0.8.3",
+   "version_used": "0.8.3",
+   "seconds": 3.9875170609448105,
+   "first_attempt_seconds": 3.9875170609448105,
+   "attempts": [
+    [
+     "0.8.3",
+     3.9875170609448105,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x10bc28d2810dd462e16facff18f78783e859351b",
+   "pinned": "0.8.4",
+   "version_used": "0.8.4",
+   "seconds": 1.7274467549286783,
+   "first_attempt_seconds": 1.7274467549286783,
+   "attempts": [
+    [
+     "0.8.4",
+     1.7274467549286783,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x13a517751318cce71a524006b16f7930b3515ccf",
+   "pinned": "0.4.18",
+   "version_used": "0.4.26",
+   "seconds": 1.7970975239295512,
+   "first_attempt_seconds": 0.7844912700820714,
+   "attempts": [
+    [
+     "0.4.18",
+     0.7844912700820714,
+     false
+    ],
+    [
+     "0.4.26",
+     1.0126062538474798,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x1486ddbe6735eed12d6d5e13635d97039d5b9c9a",
+   "pinned": "0.4.25",
+   "version_used": "0.4.25",
+   "seconds": 0.8169474229216576,
+   "first_attempt_seconds": 0.8169474229216576,
+   "attempts": [
+    [
+     "0.4.25",
+     0.8169474229216576,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x1ca4a86bba124426507d1ef67ad271cc5a02820a",
+   "pinned": "0.8.20",
+   "version_used": "0.4.26",
+   "seconds": 1.5489635330159217,
+   "first_attempt_seconds": 0.7254965759348124,
+   "attempts": [
+    [
+     "0.8.20",
+     0.7254965759348124,
+     false
+    ],
+    [
+     "0.4.26",
+     0.8234669570811093,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x1f5b7179a643570effb4da05a0ca0760b36ceed3",
+   "pinned": "0.4.25",
+   "version_used": "0.4.25",
+   "seconds": 11.433005114784464,
+   "first_attempt_seconds": 11.433005114784464,
+   "attempts": [
+    [
+     "0.4.25",
+     11.433005114784464,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": false
+  },
+  {
+   "name": "0x2287c04a15bb11ad1358ba5702c1c95e2d13a5e0",
+   "pinned": "0.8.7",
+   "version_used": "0.8.7",
+   "seconds": 1.37947911885567,
+   "first_attempt_seconds": 1.37947911885567,
+   "attempts": [
+    [
+     "0.8.7",
+     1.37947911885567,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x233265020cc69214aea3edd4192b96d5232bf5ca",
+   "pinned": "0.4.17",
+   "version_used": "0.4.17",
+   "seconds": 0.9572568607982248,
+   "first_attempt_seconds": 0.9572568607982248,
+   "attempts": [
+    [
+     "0.4.17",
+     0.9572568607982248,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x2a45cc8d5239c41960b70740367fd9dabff379e1",
+   "pinned": "0.4.25",
+   "version_used": "0.4.25",
+   "seconds": 0.8200075498316437,
+   "first_attempt_seconds": 0.8200075498316437,
+   "attempts": [
+    [
+     "0.4.25",
+     0.8200075498316437,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x2bb4bacbb7cc6186454253dab673e22009a0b866",
+   "pinned": "0.4.25",
+   "version_used": "0.4.25",
+   "seconds": 0.8193026981316507,
+   "first_attempt_seconds": 0.8193026981316507,
+   "attempts": [
+    [
+     "0.4.25",
+     0.8193026981316507,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x31b9eb2bb4bd06b56132282c82d0437d77d2339e",
+   "pinned": "0.4.25",
+   "version_used": "0.4.25",
+   "seconds": 0.8926394188310951,
+   "first_attempt_seconds": 0.8926394188310951,
+   "attempts": [
+    [
+     "0.4.25",
+     0.8926394188310951,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x365443b7b06b86f1f560873de723b6d4fb3927ce",
+   "pinned": "0.4.24",
+   "version_used": "0.4.24",
+   "seconds": 0.8733703407924622,
+   "first_attempt_seconds": 0.8733703407924622,
+   "attempts": [
+    [
+     "0.4.24",
+     0.8733703407924622,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x38c83b225eb17d44f33f8bb3bdc23d86733838db",
+   "pinned": "0.4.20",
+   "version_used": "0.4.20",
+   "seconds": 0.8166280910372734,
+   "first_attempt_seconds": 0.8166280910372734,
+   "attempts": [
+    [
+     "0.4.20",
+     0.8166280910372734,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x39a765ecf417f5eecbb58d6b0482f81f4d825fff",
+   "pinned": "0.4.25",
+   "version_used": "0.4.25",
+   "seconds": 0.8946023639291525,
+   "first_attempt_seconds": 0.8946023639291525,
+   "attempts": [
+    [
+     "0.4.25",
+     0.8946023639291525,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x3e5314f7360d526171bdec2a36c3ab49e8761298",
+   "pinned": "0.4.24",
+   "version_used": "0.4.24",
+   "seconds": 1.0606092941015959,
+   "first_attempt_seconds": 1.0606092941015959,
+   "attempts": [
+    [
+     "0.4.24",
+     1.0606092941015959,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x509cb8cb2f8ba04ae81eec394175707edd37e109",
+   "pinned": "0.4.21",
+   "version_used": "0.4.21",
+   "seconds": 1.0514118631836027,
+   "first_attempt_seconds": 1.0514118631836027,
+   "attempts": [
+    [
+     "0.4.21",
+     1.0514118631836027,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x526edd7ee821cce738c4acbe01fbec5c1e434c22",
+   "pinned": "0.5.7",
+   "version_used": "0.5.7",
+   "seconds": 0.7769557130523026,
+   "first_attempt_seconds": 0.7769557130523026,
+   "attempts": [
+    [
+     "0.5.7",
+     0.7769557130523026,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x52e2a7dbb799e402d33a36c6ecd5f0fc78c95031",
+   "pinned": "0.4.16",
+   "version_used": "0.4.16",
+   "seconds": 0.9378377320244908,
+   "first_attempt_seconds": 0.9378377320244908,
+   "attempts": [
+    [
+     "0.4.16",
+     0.9378377320244908,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x567dc1d64bbc362caccfebb7a3bb5b900d22eefe",
+   "pinned": "0.4.24",
+   "version_used": "0.4.24",
+   "seconds": 1.2737257580738515,
+   "first_attempt_seconds": 1.2737257580738515,
+   "attempts": [
+    [
+     "0.4.24",
+     1.2737257580738515,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x56d06701fd44a4a857cb96b266f505a2832950c5",
+   "pinned": "0.4.24",
+   "version_used": "0.4.24",
+   "seconds": 2.612893681973219,
+   "first_attempt_seconds": 2.612893681973219,
+   "attempts": [
+    [
+     "0.4.24",
+     2.612893681973219,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x58ab239b029e80132f907f098285055fa0c6a774",
+   "pinned": "0.4.24",
+   "version_used": "0.4.24",
+   "seconds": 1.0941502631176263,
+   "first_attempt_seconds": 1.0941502631176263,
+   "attempts": [
+    [
+     "0.4.24",
+     1.0941502631176263,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x607bad7a2969019ade64cb1b74f60fffa20cc3e5",
+   "pinned": "0.4.24",
+   "version_used": "0.4.24",
+   "seconds": 3.7376344529911876,
+   "first_attempt_seconds": 3.7376344529911876,
+   "attempts": [
+    [
+     "0.4.24",
+     3.7376344529911876,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x612f1bdbe93523b7f5036efa87493b76341726e3",
+   "pinned": "0.4.18",
+   "version_used": "0.4.26",
+   "seconds": 1.802504930878058,
+   "first_attempt_seconds": 0.799753078026697,
+   "attempts": [
+    [
+     "0.4.18",
+     0.799753078026697,
+     false
+    ],
+    [
+     "0.4.26",
+     1.002751852851361,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x67e23d1e1ed3f0d5b07cebc84fe4835b0788cac6",
+   "pinned": "0.4.23",
+   "version_used": "0.4.23",
+   "seconds": 0.9749276218935847,
+   "first_attempt_seconds": 0.9749276218935847,
+   "attempts": [
+    [
+     "0.4.23",
+     0.9749276218935847,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x69aaeed694cc5ca303406d2fe055099edf88723f",
+   "pinned": "0.4.25",
+   "version_used": "0.4.25",
+   "seconds": 0.764497758122161,
+   "first_attempt_seconds": 0.764497758122161,
+   "attempts": [
+    [
+     "0.4.25",
+     0.764497758122161,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x6a15488ef88d399cd1ac1823ef3e61e2ff215f87",
+   "pinned": "0.4.24",
+   "version_used": "0.4.24",
+   "seconds": 0.7680065678432584,
+   "first_attempt_seconds": 0.7680065678432584,
+   "attempts": [
+    [
+     "0.4.24",
+     0.7680065678432584,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x6a498c4d31aec7dd076d81e73d564f33c9a07764",
+   "pinned": "0.4.11",
+   "version_used": "0.4.26",
+   "seconds": 1.7062748579774052,
+   "first_attempt_seconds": 0.8683641110546887,
+   "attempts": [
+    [
+     "0.4.11",
+     0.8683641110546887,
+     false
+    ],
+    [
+     "0.4.26",
+     0.8379107469227165,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x6d68beb09ea7e76d561ea8c4aac34a6611dd9821",
+   "pinned": "0.5.16",
+   "version_used": "0.5.16",
+   "seconds": 4.806730353971943,
+   "first_attempt_seconds": 4.806730353971943,
+   "attempts": [
+    [
+     "0.5.16",
+     4.806730353971943,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x6e58b4c41cab75dc0239938bf5455ab8823ee4de",
+   "pinned": "0.4.17",
+   "version_used": "0.4.17",
+   "seconds": 0.8779264360200614,
+   "first_attempt_seconds": 0.8779264360200614,
+   "attempts": [
+    [
+     "0.4.17",
+     0.8779264360200614,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x724e3a236d3e9c8ad2c3d1aff181118e6e9b3026",
+   "pinned": "0.4.18",
+   "version_used": "0.4.26",
+   "seconds": 1.6755192847922444,
+   "first_attempt_seconds": 0.7315162618178874,
+   "attempts": [
+    [
+     "0.4.18",
+     0.7315162618178874,
+     false
+    ],
+    [
+     "0.4.26",
+     0.944003022974357,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x73388dc2f89777cbdf53e5352f516cd703d070a6",
+   "pinned": "0.8.20",
+   "version_used": "0.4.26",
+   "seconds": 1.5945443199016154,
+   "first_attempt_seconds": 0.8521449549589306,
+   "attempts": [
+    [
+     "0.8.20",
+     0.8521449549589306,
+     false
+    ],
+    [
+     "0.4.26",
+     0.7423993649426848,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x74cd98fbd837fe9200cf867f4b1ba9573c6d865e",
+   "pinned": "0.4.18",
+   "version_used": "0.4.18",
+   "seconds": 2.888863030821085,
+   "first_attempt_seconds": 2.888863030821085,
+   "attempts": [
+    [
+     "0.4.18",
+     2.888863030821085,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x777777d1123591df7f68e053bc182de3cd4fa6de",
+   "pinned": "0.5.5",
+   "version_used": "0.5.5",
+   "seconds": 0.8798872348852456,
+   "first_attempt_seconds": 0.8798872348852456,
+   "attempts": [
+    [
+     "0.5.5",
+     0.8798872348852456,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x8960eb9d4a2d153fd7b175c0f3eef8026eb95dfc",
+   "pinned": "0.4.22",
+   "version_used": "0.4.22",
+   "seconds": 0.9272828069515526,
+   "first_attempt_seconds": 0.9272828069515526,
+   "attempts": [
+    [
+     "0.4.22",
+     0.9272828069515526,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x89cce324de3f212b39d090375b3732a19ec54d30",
+   "pinned": "0.5.17",
+   "version_used": "0.5.17",
+   "seconds": 1.8700509129557759,
+   "first_attempt_seconds": 1.8700509129557759,
+   "attempts": [
+    [
+     "0.5.17",
+     1.8700509129557759,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x8d4feae082902b3c81675febbe35c2aaea9c8cab",
+   "pinned": "0.4.19",
+   "version_used": "0.4.19",
+   "seconds": 0.8898346822243184,
+   "first_attempt_seconds": 0.8898346822243184,
+   "attempts": [
+    [
+     "0.4.19",
+     0.8898346822243184,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x91151abe8cea8ee574b50cc01c18ce36cbba3195",
+   "pinned": "0.4.18",
+   "version_used": "0.4.18",
+   "seconds": 0.9364608558826149,
+   "first_attempt_seconds": 0.9364608558826149,
+   "attempts": [
+    [
+     "0.4.18",
+     0.9364608558826149,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x97f599b5ab34dd6223a0a80c2794c04cddf59488",
+   "pinned": "0.4.18",
+   "version_used": "0.4.18",
+   "seconds": 0.8885463271290064,
+   "first_attempt_seconds": 0.8885463271290064,
+   "attempts": [
+    [
+     "0.4.18",
+     0.8885463271290064,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0x9a2e9235f7a7ac7b899e5f3208fbb13c6985171a",
+   "pinned": "0.4.0",
+   "version_used": "0.4.0",
+   "seconds": 0.9421617700718343,
+   "first_attempt_seconds": 0.9421617700718343,
+   "attempts": [
+    [
+     "0.4.0",
+     0.9421617700718343,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xa540ffa17aa1256766355a84444f1bac68944622",
+   "pinned": "0.4.24",
+   "version_used": "0.4.24",
+   "seconds": 1.1534909431356937,
+   "first_attempt_seconds": 1.1534909431356937,
+   "attempts": [
+    [
+     "0.4.24",
+     1.1534909431356937,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xa958f2404d1a1b33e2d22244aab118dcfcc358e3",
+   "pinned": "0.4.24",
+   "version_used": "0.4.24",
+   "seconds": 1.0970948920585215,
+   "first_attempt_seconds": 1.0970948920585215,
+   "attempts": [
+    [
+     "0.4.24",
+     1.0970948920585215,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xb5306879cb7f1fb18b86a2be62c0dc9ae62fa1eb",
+   "pinned": "0.4.25",
+   "version_used": "0.4.25",
+   "seconds": 0.9326401278376579,
+   "first_attempt_seconds": 0.9326401278376579,
+   "attempts": [
+    [
+     "0.4.25",
+     0.9326401278376579,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xbaa3de6504690efb064420d89e871c27065cdd52",
+   "pinned": "0.4.23",
+   "version_used": "0.4.23",
+   "seconds": 0.822267625015229,
+   "first_attempt_seconds": 0.822267625015229,
+   "attempts": [
+    [
+     "0.4.23",
+     0.822267625015229,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xbd596c144b199f0f609515c3ad7f1b9494ecc312",
+   "pinned": "0.4.24",
+   "version_used": "0.4.24",
+   "seconds": 2.239924364956096,
+   "first_attempt_seconds": 2.239924364956096,
+   "attempts": [
+    [
+     "0.4.24",
+     2.239924364956096,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xc342774492b54ce5f8ac662113ed702fc1b34972",
+   "pinned": "0.6.10",
+   "version_used": "0.6.10",
+   "seconds": 1.2198519259691238,
+   "first_attempt_seconds": 1.2198519259691238,
+   "attempts": [
+    [
+     "0.6.10",
+     1.2198519259691238,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xc7195560b102facce63786043394e25e5a5be343",
+   "pinned": "0.4.23",
+   "version_used": "0.4.23",
+   "seconds": 0.8398915261495858,
+   "first_attempt_seconds": 0.8398915261495858,
+   "attempts": [
+    [
+     "0.4.23",
+     0.8398915261495858,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xc8c6a31a4a806d3710a7b38b7b296d2fabccdba8",
+   "pinned": "0.4.10",
+   "version_used": "0.4.10",
+   "seconds": 0.8678898669313639,
+   "first_attempt_seconds": 0.8678898669313639,
+   "attempts": [
+    [
+     "0.4.10",
+     0.8678898669313639,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xc999e5490773fb2e69557a863dcb8a7d3508604f",
+   "pinned": "0.4.21",
+   "version_used": "0.4.21",
+   "seconds": 0.8390550350304693,
+   "first_attempt_seconds": 0.8390550350304693,
+   "attempts": [
+    [
+     "0.4.21",
+     0.8390550350304693,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xcFF086EaD392CcB39C49eCda8C974ad5238452aC",
+   "pinned": "0.8.6",
+   "version_used": "0.8.6",
+   "seconds": 1.5591761989053339,
+   "first_attempt_seconds": 1.5591761989053339,
+   "attempts": [
+    [
+     "0.8.6",
+     1.5591761989053339,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xcdA5deA176F2dF95082f4daDb96255Bdb2bc7C7D",
+   "pinned": "0.8.11",
+   "version_used": "0.8.11",
+   "seconds": 3.6019028648734093,
+   "first_attempt_seconds": 3.6019028648734093,
+   "attempts": [
+    [
+     "0.8.11",
+     3.6019028648734093,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xcdcfc0f66c522fd086a1b725ea3c0eeb9f9e8814",
+   "pinned": "0.4.19",
+   "version_used": "0.4.19",
+   "seconds": 0.9140238270629197,
+   "first_attempt_seconds": 0.9140238270629197,
+   "attempts": [
+    [
+     "0.4.19",
+     0.9140238270629197,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xd03cdb4206084f15778ff6388b139d96c93ccaf7",
+   "pinned": "0.8.20",
+   "version_used": "0.4.26",
+   "seconds": 3.133936735102907,
+   "first_attempt_seconds": 0.7899905710946769,
+   "attempts": [
+    [
+     "0.8.20",
+     0.7899905710946769,
+     false
+    ],
+    [
+     "0.4.26",
+     2.34394616400823,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xd2869042E12a3506100af1D192b5b04D65137941",
+   "pinned": "0.8.4",
+   "version_used": "0.8.4",
+   "seconds": 1.2305172989144921,
+   "first_attempt_seconds": 1.2305172989144921,
+   "attempts": [
+    [
+     "0.8.4",
+     1.2305172989144921,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xd2869042e12a3506100af1d192b5b04d65137941",
+   "pinned": "0.8.4",
+   "version_used": "0.8.4",
+   "seconds": 1.2744806529954076,
+   "first_attempt_seconds": 1.2744806529954076,
+   "attempts": [
+    [
+     "0.8.4",
+     1.2744806529954076,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xd3d4B46Db01C006Fb165879f343fc13174a1cEeB",
+   "pinned": "0.8.7",
+   "version_used": "0.8.7",
+   "seconds": 2.66305143898353,
+   "first_attempt_seconds": 2.66305143898353,
+   "attempts": [
+    [
+     "0.8.7",
+     2.66305143898353,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xe746993eb1b03327a8f432b93090aaa2314f8c07",
+   "pinned": "0.4.24",
+   "version_used": "0.4.24",
+   "seconds": 1.0617254639510065,
+   "first_attempt_seconds": 1.0617254639510065,
+   "attempts": [
+    [
+     "0.4.24",
+     1.0617254639510065,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xead71f4d060ddc7656c959b482fbdfaca95c5d9d",
+   "pinned": "0.4.16",
+   "version_used": "0.4.16",
+   "seconds": 0.9133353871293366,
+   "first_attempt_seconds": 0.9133353871293366,
+   "attempts": [
+    [
+     "0.4.16",
+     0.9133353871293366,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xeb547ed1d8a3ff1461abaa7f0022fed4836e00a4",
+   "pinned": "0.4.24",
+   "version_used": "0.4.24",
+   "seconds": 1.2245430329348892,
+   "first_attempt_seconds": 1.2245430329348892,
+   "attempts": [
+    [
+     "0.4.24",
+     1.2245430329348892,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xeb62b8c5c4f0f5d59a7f060554c13e8f38f4de9f",
+   "pinned": "0.4.25",
+   "version_used": "0.4.25",
+   "seconds": 0.8648743340745568,
+   "first_attempt_seconds": 0.8648743340745568,
+   "attempts": [
+    [
+     "0.4.25",
+     0.8648743340745568,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xed9ed56f704cd8847eeb052fe5ae3294efb1dbb0",
+   "pinned": "0.5.5",
+   "version_used": "0.5.5",
+   "seconds": 0.8995611630380154,
+   "first_attempt_seconds": 0.8995611630380154,
+   "attempts": [
+    [
+     "0.5.5",
+     0.8995611630380154,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xeefdfa0f6a921044e7901d18e6794c0a7baff4d7",
+   "pinned": "0.4.22",
+   "version_used": "0.4.22",
+   "seconds": 0.9543128050863743,
+   "first_attempt_seconds": 0.9543128050863743,
+   "attempts": [
+    [
+     "0.4.22",
+     0.9543128050863743,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "0xf34839b310097fcb4cf3a302dda8cc9b57501083",
+   "pinned": "0.4.22",
+   "version_used": "0.4.22",
+   "seconds": 1.0029782229103148,
+   "first_attempt_seconds": 1.0029782229103148,
+   "attempts": [
+    [
+     "0.4.22",
+     1.0029782229103148,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "10417",
+   "pinned": "0.4.23",
+   "version_used": "0.4.23",
+   "seconds": 1.0092842949088663,
+   "first_attempt_seconds": 1.0092842949088663,
+   "attempts": [
+    [
+     "0.4.23",
+     1.0092842949088663,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "10687",
+   "pinned": "0.4.13",
+   "version_used": "0.4.26",
+   "seconds": 1.6867559850215912,
+   "first_attempt_seconds": 0.7286669150926173,
+   "attempts": [
+    [
+     "0.4.13",
+     0.7286669150926173,
+     false
+    ],
+    [
+     "0.4.26",
+     0.9580890699289739,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "10692",
+   "pinned": "0.4.13",
+   "version_used": "0.4.26",
+   "seconds": 6.295044511789456,
+   "first_attempt_seconds": 0.7507942169904709,
+   "attempts": [
+    [
+     "0.4.13",
+     0.7507942169904709,
+     false
+    ],
+    [
+     "0.4.26",
+     5.544250294798985,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "12990",
+   "pinned": "0.4.21",
+   "version_used": "0.4.26",
+   "seconds": 1.5507629730273038,
+   "first_attempt_seconds": 0.7881494199391454,
+   "attempts": [
+    [
+     "0.4.21",
+     0.7881494199391454,
+     false
+    ],
+    [
+     "0.4.26",
+     0.7626135530881584,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "13610",
+   "pinned": "0.4.18",
+   "version_used": "0.4.18",
+   "seconds": 1.0777512909844518,
+   "first_attempt_seconds": 1.0777512909844518,
+   "attempts": [
+    [
+     "0.4.18",
+     1.0777512909844518,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "16470",
+   "pinned": "0.4.11",
+   "version_used": "0.4.26",
+   "seconds": 2.1736863569822162,
+   "first_attempt_seconds": 0.7938749210443348,
+   "attempts": [
+    [
+     "0.4.11",
+     0.7938749210443348,
+     false
+    ],
+    [
+     "0.4.26",
+     1.3798114359378815,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "16776",
+   "pinned": "0.4.20",
+   "version_used": "0.4.26",
+   "seconds": 1.5164423109963536,
+   "first_attempt_seconds": 0.6823575259186327,
+   "attempts": [
+    [
+     "0.4.20",
+     0.6823575259186327,
+     false
+    ],
+    [
+     "0.4.26",
+     0.8340847850777209,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "20035",
+   "pinned": "0.4.21",
+   "version_used": "0.4.21",
+   "seconds": 0.8233353081159294,
+   "first_attempt_seconds": 0.8233353081159294,
+   "attempts": [
+    [
+     "0.4.21",
+     0.8233353081159294,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "2021-11-malt_Bonding",
+   "pinned": "0.6.6",
+   "version_used": "0.6.6",
+   "seconds": 1.6461411931086332,
+   "first_attempt_seconds": 1.6461411931086332,
+   "attempts": [
+    [
+     "0.6.6",
+     1.6461411931086332,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "2021-11-unlock_PublicLock",
+   "pinned": "0.8.4",
+   "version_used": "0.8.4",
+   "seconds": 3.8203949860762805,
+   "first_attempt_seconds": 3.8203949860762805,
+   "attempts": [
+    [
+     "0.8.4",
+     3.8203949860762805,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "2022-01-behodler_FlashGovernanceArbiter",
+   "pinned": "0.8.4",
+   "version_used": "0.8.4",
+   "seconds": 2.3856360639911145,
+   "first_attempt_seconds": 2.3856360639911145,
+   "attempts": [
+    [
+     "0.8.4",
+     2.3856360639911145,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "2022-01-insure_Registry",
+   "pinned": "0.8.7",
+   "version_used": "0.8.7",
+   "seconds": 8.825008769053966,
+   "first_attempt_seconds": 8.825008769053966,
+   "attempts": [
+    [
+     "0.8.7",
+     8.825008769053966,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": false
+  },
+  {
+   "name": "2022-08-mimo_MIMOProxy",
+   "pinned": "0.8.10",
+   "version_used": "0.8.10",
+   "seconds": 0.978439275873825,
+   "first_attempt_seconds": 0.978439275873825,
+   "attempts": [
+    [
+     "0.8.10",
+     0.978439275873825,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "2024-04-gondi_LiquidationDistributor",
+   "pinned": "0.8.21",
+   "version_used": "0.8.21",
+   "seconds": 1.4065394969657063,
+   "first_attempt_seconds": 1.4065394969657063,
+   "attempts": [
+    [
+     "0.8.21",
+     1.4065394969657063,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "2024-07-benddao_IsolateLogic",
+   "pinned": "0.8.25",
+   "version_used": "0.8.25",
+   "seconds": 4.209352676989511,
+   "first_attempt_seconds": 4.209352676989511,
+   "attempts": [
+    [
+     "0.8.25",
+     4.209352676989511,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "2024-07-traitforge_EntropyGenerator",
+   "pinned": "0.8.20",
+   "version_used": "0.8.20",
+   "seconds": 4.042468572966754,
+   "first_attempt_seconds": 4.042468572966754,
+   "attempts": [
+    [
+     "0.8.20",
+     4.042468572966754,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "20300",
+   "pinned": "0.4.19",
+   "version_used": "0.4.19",
+   "seconds": 2.6439674498979002,
+   "first_attempt_seconds": 2.6439674498979002,
+   "attempts": [
+    [
+     "0.4.19",
+     2.6439674498979002,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "21087",
+   "pinned": "0.4.17",
+   "version_used": "0.4.17",
+   "seconds": 0.8170740739442408,
+   "first_attempt_seconds": 0.8170740739442408,
+   "attempts": [
+    [
+     "0.4.17",
+     0.8170740739442408,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "2201",
+   "pinned": "0.4.24",
+   "version_used": "0.4.24",
+   "seconds": 0.8401977038010955,
+   "first_attempt_seconds": 0.8401977038010955,
+   "attempts": [
+    [
+     "0.4.24",
+     0.8401977038010955,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "23277",
+   "pinned": "0.4.15",
+   "version_used": "0.4.15",
+   "seconds": 1.0468525148462504,
+   "first_attempt_seconds": 1.0468525148462504,
+   "attempts": [
+    [
+     "0.4.15",
+     1.0468525148462504,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "2510",
+   "pinned": "0.4.23",
+   "version_used": "0.4.23",
+   "seconds": 1.3119104870129377,
+   "first_attempt_seconds": 1.3119104870129377,
+   "attempts": [
+    [
+     "0.4.23",
+     1.3119104870129377,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "2593",
+   "pinned": "0.4.23",
+   "version_used": "0.4.23",
+   "seconds": 1.0389437400735915,
+   "first_attempt_seconds": 1.0389437400735915,
+   "attempts": [
+    [
+     "0.4.23",
+     1.0389437400735915,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "27454",
+   "pinned": "0.4.18",
+   "version_used": "0.4.18",
+   "seconds": 3.277150319889188,
+   "first_attempt_seconds": 3.277150319889188,
+   "attempts": [
+    [
+     "0.4.18",
+     3.277150319889188,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "27557",
+   "pinned": "0.4.18",
+   "version_used": "0.4.18",
+   "seconds": 2.9409285481087863,
+   "first_attempt_seconds": 2.9409285481087863,
+   "attempts": [
+    [
+     "0.4.18",
+     2.9409285481087863,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": false
+  },
+  {
+   "name": "28132",
+   "pinned": "0.4.18",
+   "version_used": "0.4.18",
+   "seconds": 1.3816237051505595,
+   "first_attempt_seconds": 1.3816237051505595,
+   "attempts": [
+    [
+     "0.4.18",
+     1.3816237051505595,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": false
+  },
+  {
+   "name": "28389",
+   "pinned": "0.4.18",
+   "version_used": "0.4.18",
+   "seconds": 0.788774934830144,
+   "first_attempt_seconds": 0.788774934830144,
+   "attempts": [
+    [
+     "0.4.18",
+     0.788774934830144,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "29219",
+   "pinned": "0.4.18",
+   "version_used": "0.4.18",
+   "seconds": 0.8236624950077385,
+   "first_attempt_seconds": 0.8236624950077385,
+   "attempts": [
+    [
+     "0.4.18",
+     0.8236624950077385,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "30692",
+   "pinned": "0.4.11",
+   "version_used": "0.4.11",
+   "seconds": 0.7361602718010545,
+   "first_attempt_seconds": 0.7361602718010545,
+   "attempts": [
+    [
+     "0.4.11",
+     0.7361602718010545,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "30999",
+   "pinned": "0.4.11",
+   "version_used": "0.4.26",
+   "seconds": 5.009495073929429,
+   "first_attempt_seconds": 0.7928295319434255,
+   "attempts": [
+    [
+     "0.4.11",
+     0.7928295319434255,
+     false
+    ],
+    [
+     "0.4.26",
+     4.2166655419860035,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "31231",
+   "pinned": "0.4.18",
+   "version_used": "0.4.18",
+   "seconds": 0.861857800045982,
+   "first_attempt_seconds": 0.861857800045982,
+   "attempts": [
+    [
+     "0.4.18",
+     0.861857800045982,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "3179",
+   "pinned": "0.4.20",
+   "version_used": "0.4.26",
+   "seconds": 1.5745844570919871,
+   "first_attempt_seconds": 0.7909157429821789,
+   "attempts": [
+    [
+     "0.4.20",
+     0.7909157429821789,
+     false
+    ],
+    [
+     "0.4.26",
+     0.7836687141098082,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "32420",
+   "pinned": "0.4.18",
+   "version_used": "0.4.18",
+   "seconds": 0.741806932957843,
+   "first_attempt_seconds": 0.741806932957843,
+   "attempts": [
+    [
+     "0.4.18",
+     0.741806932957843,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "33302",
+   "pinned": "0.4.18",
+   "version_used": "0.4.18",
+   "seconds": 0.885486840037629,
+   "first_attempt_seconds": 0.885486840037629,
+   "attempts": [
+    [
+     "0.4.18",
+     0.885486840037629,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "34410",
+   "pinned": "0.4.18",
+   "version_used": "0.4.18",
+   "seconds": 0.678020385093987,
+   "first_attempt_seconds": 0.678020385093987,
+   "attempts": [
+    [
+     "0.4.18",
+     0.678020385093987,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "34905",
+   "pinned": "0.4.8",
+   "version_used": "0.4.8",
+   "seconds": 0.8252239690627903,
+   "first_attempt_seconds": 0.8252239690627903,
+   "attempts": [
+    [
+     "0.4.8",
+     0.8252239690627903,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "37605",
+   "pinned": "0.4.15",
+   "version_used": "0.4.15",
+   "seconds": 0.7592030589003116,
+   "first_attempt_seconds": 0.7592030589003116,
+   "attempts": [
+    [
+     "0.4.15",
+     0.7592030589003116,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": false
+  },
+  {
+   "name": "38864",
+   "pinned": "0.4.11",
+   "version_used": "0.4.11",
+   "seconds": 0.7768158370163292,
+   "first_attempt_seconds": 0.7768158370163292,
+   "attempts": [
+    [
+     "0.4.11",
+     0.7768158370163292,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "39101",
+   "pinned": "0.4.10",
+   "version_used": "0.4.10",
+   "seconds": 0.8154405229724944,
+   "first_attempt_seconds": 0.8154405229724944,
+   "attempts": [
+    [
+     "0.4.10",
+     0.8154405229724944,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "39124",
+   "pinned": "0.4.11",
+   "version_used": "0.4.11",
+   "seconds": 0.98467250703834,
+   "first_attempt_seconds": 0.98467250703834,
+   "attempts": [
+    [
+     "0.4.11",
+     0.98467250703834,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "39411",
+   "pinned": "0.4.10",
+   "version_used": "0.4.10",
+   "seconds": 0.810253418982029,
+   "first_attempt_seconds": 0.810253418982029,
+   "attempts": [
+    [
+     "0.4.10",
+     0.810253418982029,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "39412",
+   "pinned": "0.4.10",
+   "version_used": "0.4.10",
+   "seconds": 0.7955897529609501,
+   "first_attempt_seconds": 0.7955897529609501,
+   "attempts": [
+    [
+     "0.4.10",
+     0.7955897529609501,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "39817",
+   "pinned": "0.4.0",
+   "version_used": "0.4.0",
+   "seconds": 1.2625747951678932,
+   "first_attempt_seconds": 1.2625747951678932,
+   "attempts": [
+    [
+     "0.4.0",
+     1.2625747951678932,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "39983",
+   "pinned": "0.4.6",
+   "version_used": "0.4.6",
+   "seconds": 0.8214961369521916,
+   "first_attempt_seconds": 0.8214961369521916,
+   "attempts": [
+    [
+     "0.4.6",
+     0.8214961369521916,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "40018",
+   "pinned": "0.4.5",
+   "version_used": "0.4.5",
+   "seconds": 0.8657794429454952,
+   "first_attempt_seconds": 0.8657794429454952,
+   "attempts": [
+    [
+     "0.4.5",
+     0.8657794429454952,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "7014",
+   "pinned": "0.4.21",
+   "version_used": "0.4.26",
+   "seconds": 1.6628878659103066,
+   "first_attempt_seconds": 0.724279650952667,
+   "attempts": [
+    [
+     "0.4.21",
+     0.724279650952667,
+     false
+    ],
+    [
+     "0.4.26",
+     0.9386082149576396,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "7514",
+   "pinned": "0.4.16",
+   "version_used": "0.4.26",
+   "seconds": 1.7391234969254583,
+   "first_attempt_seconds": 0.8017433220520616,
+   "attempts": [
+    [
+     "0.4.16",
+     0.8017433220520616,
+     false
+    ],
+    [
+     "0.4.26",
+     0.9373801748733968,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "8333",
+   "pinned": "0.4.24",
+   "version_used": "0.4.24",
+   "seconds": 0.8056598149705678,
+   "first_attempt_seconds": 0.8056598149705678,
+   "attempts": [
+    [
+     "0.4.24",
+     0.8056598149705678,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "8441",
+   "pinned": "0.4.24",
+   "version_used": "0.4.24",
+   "seconds": 1.1750981290824711,
+   "first_attempt_seconds": 1.1750981290824711,
+   "attempts": [
+    [
+     "0.4.24",
+     1.1750981290824711,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "8500",
+   "pinned": "0.4.24",
+   "version_used": "0.4.24",
+   "seconds": 0.958500383188948,
+   "first_attempt_seconds": 0.958500383188948,
+   "attempts": [
+    [
+     "0.4.24",
+     0.958500383188948,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "9320",
+   "pinned": "0.4.18",
+   "version_used": "0.4.18",
+   "seconds": 0.7668735319748521,
+   "first_attempt_seconds": 0.7668735319748521,
+   "attempts": [
+    [
+     "0.4.18",
+     0.7668735319748521,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "AURA",
+   "pinned": "0.4.19",
+   "version_used": "0.4.19",
+   "seconds": 0.8402508501894772,
+   "first_attempt_seconds": 0.8402508501894772,
+   "attempts": [
+    [
+     "0.4.19",
+     0.8402508501894772,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "B2X",
+   "pinned": "0.4.4",
+   "version_used": "0.4.26",
+   "seconds": 1.6772565071005374,
+   "first_attempt_seconds": 0.7625308961141855,
+   "attempts": [
+    [
+     "0.4.4",
+     0.7625308961141855,
+     false
+    ],
+    [
+     "0.4.26",
+     0.914725610986352,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "MakerCompound",
+   "pinned": "0.5.7",
+   "version_used": "0.5.7",
+   "seconds": 4.240470348857343,
+   "first_attempt_seconds": 4.240470348857343,
+   "attempts": [
+    [
+     "0.5.7",
+     4.240470348857343,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "SATX",
+   "pinned": "0.8.6",
+   "version_used": "0.8.6",
+   "seconds": 1.4949021500069648,
+   "first_attempt_seconds": 1.4949021500069648,
+   "attempts": [
+    [
+     "0.8.6",
+     1.4949021500069648,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "SpaceGodzilla",
+   "pinned": "0.8.6",
+   "version_used": "0.8.6",
+   "seconds": 1.3556559919379652,
+   "first_attempt_seconds": 1.3556559919379652,
+   "attempts": [
+    [
+     "0.8.6",
+     1.3556559919379652,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "fixed-term-loan_MapleLoan",
+   "pinned": "0.8.7",
+   "version_used": "0.8.7",
+   "seconds": 2.745585371972993,
+   "first_attempt_seconds": 2.745585371972993,
+   "attempts": [
+    [
+     "0.8.7",
+     2.745585371972993,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  },
+  {
+   "name": "pt-v5-prize-pool_PrizePool",
+   "pinned": "0.8.24",
+   "version_used": "0.8.24",
+   "seconds": 6.601513538975269,
+   "first_attempt_seconds": 6.601513538975269,
+   "attempts": [
+    [
+     "0.8.24",
+     6.601513538975269,
+     true
+    ]
+   ],
+   "matches_shipped_sdg": true
+  }
+ ]
+}

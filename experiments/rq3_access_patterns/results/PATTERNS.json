@@ -1,0 +1,182 @@
+{
+ "model": "SNACS checkpoints_final, K = 2, 5-seed mean-probability ensemble, threshold 0.5",
+ "test_contracts": 121,
+ "all_contracts": {
+  "n": 121,
+  "v": 65,
+  "s": 56,
+  "P": 0.8484848484848485,
+  "R": 0.8615384615384616,
+  "f1": 0.8549618320610687,
+  "acc": 0.8429752066115702,
+  "auc": 0.9208791208791208,
+  "TP": 56,
+  "FP": 10,
+  "FN": 9,
+  "TN": 46,
+  "ci": [
+   0.7863247863247863,
+   0.9154929577464788
+  ]
+ },
+ "patterns": {
+  "Modifier-based guard": {
+   "n": 76,
+   "v": 40,
+   "s": 36,
+   "P": 0.8409090909090909,
+   "R": 0.925,
+   "f1": 0.8809523809523809,
+   "acc": 0.868421052631579,
+   "auc": 0.9604166666666667,
+   "TP": 37,
+   "FP": 7,
+   "FN": 3,
+   "TN": 29,
+   "ci": [
+    0.7954545454545454,
+    0.9494949494949494
+   ],
+   "underpowered": false
+  },
+  "Inline sender check": {
+   "n": 77,
+   "v": 35,
+   "s": 42,
+   "P": 0.8421052631578947,
+   "R": 0.9142857142857143,
+   "f1": 0.8767123287671234,
+   "acc": 0.8831168831168831,
+   "auc": 0.9585034013605442,
+   "TP": 32,
+   "FP": 6,
+   "FN": 3,
+   "TN": 36,
+   "ci": [
+    0.787878787878788,
+    0.9512195121951219
+   ],
+   "underpowered": false
+  },
+  "Ownership transfer": {
+   "n": 57,
+   "v": 32,
+   "s": 25,
+   "P": 0.8857142857142857,
+   "R": 0.96875,
+   "f1": 0.9253731343283582,
+   "acc": 0.9122807017543859,
+   "auc": 0.98,
+   "TP": 31,
+   "FP": 4,
+   "FN": 1,
+   "TN": 21,
+   "ci": [
+    0.8524590163934426,
+    0.9846153846153847
+   ],
+   "underpowered": false
+  },
+  "tx.origin authorisation": {
+   "n": 25,
+   "v": 8,
+   "s": 17,
+   "P": 0.5714285714285714,
+   "R": 0.5,
+   "f1": 0.5333333333333333,
+   "acc": 0.72,
+   "auc": 0.7573529411764706,
+   "TP": 4,
+   "FP": 3,
+   "FN": 4,
+   "TN": 14,
+   "ci": [
+    0.18181818181818182,
+    0.8
+   ],
+   "underpowered": true
+  },
+  "selfdestruct present": {
+   "n": 24,
+   "v": 16,
+   "s": 8,
+   "P": 0.9166666666666666,
+   "R": 0.6875,
+   "f1": 0.7857142857142857,
+   "acc": 0.75,
+   "auc": 0.7734375,
+   "TP": 11,
+   "FP": 1,
+   "FN": 5,
+   "TN": 7,
+   "ci": [
+    0.5714285714285715,
+    0.9285714285714286
+   ],
+   "underpowered": true
+  },
+  "delegatecall present": {
+   "n": 21,
+   "v": 19,
+   "s": 2,
+   "P": 0.9047619047619048,
+   "R": 1.0,
+   "f1": 0.9500000000000001,
+   "acc": 0.9047619047619048,
+   "auc": 0.9210526315789473,
+   "TP": 19,
+   "FP": 2,
+   "FN": 0,
+   "TN": 0,
+   "ci": [
+    0.8648648648648648,
+    0.975609756097561
+   ],
+   "underpowered": true
+  },
+  "Role-based (RBAC)": {
+   "n": 8,
+   "v": 4,
+   "s": 4,
+   "P": 0.8,
+   "R": 1.0,
+   "f1": 0.888888888888889,
+   "acc": 0.875,
+   "auc": 1.0,
+   "TP": 4,
+   "FP": 1,
+   "FN": 0,
+   "TN": 3,
+   "ci": [
+    0.5714285714285715,
+    1.0
+   ],
+   "underpowered": true
+  }
+ },
+ "no_pattern_matched": {
+  "n": 11,
+  "v": 5,
+  "s": 6,
+  "P": 0.8,
+  "R": 0.8,
+  "f1": 0.8000000000000002,
+  "acc": 0.8181818181818182,
+  "auc": 0.9,
+  "TP": 4,
+  "FP": 1,
+  "FN": 1,
+  "TN": 5
+ },
+ "pattern_rules": {
+  "Modifier-based guard": "\\bmodifier\\s+only\\w*",
+  "Inline sender check": "require\\s*\\([^)]*msg\\.sender\\s*==",
+  "Ownership transfer": "function\\s+(transferOwnership|changeOwner|setOwner)",
+  "tx.origin authorisation": "tx\\.origin",
+  "selfdestruct present": "selfdestruct|suicide",
+  "delegatecall present": "delegatecall",
+  "Role-based (RBAC)": "hasRole|AccessControl|_ROLE\\b"
+ },
+ "bootstrap": "percentile, 2000 resamples, random.seed(22), resamples with one class skipped",
+ "underpowered_rule": "n < 30 or fewer than 8 contracts in either class"
+}

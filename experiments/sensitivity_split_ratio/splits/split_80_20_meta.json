@@ -1,0 +1,32 @@
+{
+ "test_frac": 0.2,
+ "val_frac": 0.1,
+ "train_frac": 0.7,
+ "seed": 22,
+ "counts": {
+  "train": 529,
+  "val": 74,
+  "test": 150
+ },
+ "class_counts": {
+  "train": {
+   "vuln": 276,
+   "safe": 253
+  },
+  "val": {
+   "vuln": 40,
+   "safe": 34
+  },
+  "test": {
+   "vuln": 78,
+   "safe": 72
+  }
+ },
+ "grouping": [
+  "normalized source",
+  "case-insensitive address",
+  "encoded SDG representation"
+ ],
+ "n_groups": 708,
+ "n_multi_member_groups": 41
+}

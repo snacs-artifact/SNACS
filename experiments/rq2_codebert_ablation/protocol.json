@@ -1,0 +1,20 @@
+{
+  "frozen": "2026-09-17",
+  "arms": {
+    "nocodebert": {"codebert_branch": false},
+    "ctrl_codebert": {"codebert_branch": true}
+  },
+  "slots": [201, 202, 203, 204, 205],
+  "replacement_seed_start": 206,
+  "threshold": 0.5,
+  "prediction_rule": "score > threshold",
+  "decision_split": "val",
+  "bootstrap": {"n": 10000, "rng": "numpy.random.default_rng", "seed": 22, "skip_single_class": true, "ci": [2.5, 97.5]},
+  "adopt_nocodebert_if_all": [
+    "delta_f1_val > 0",
+    "delta_f1_val_ci95_low > 0",
+    "delta_auc_val >= 0"
+  ],
+  "collapse_definition": "validation ROC-AUC exactly 0.5 and every validation score on the same side of the threshold",
+  "test_full_framework_reference": {"checkpoints": "checkpoints_final", "f1": 0.8549618320610687}
+}

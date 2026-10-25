@@ -1,0 +1,18 @@
+# Main environment (snacs): Python 3.14. Used for every step except the CodeBERT
+# features. These are the versions the shipped model was trained and scored with.
+#   conda create -n snacs python=3.14 -y && conda activate snacs
+#   pip install -r requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.9.1
+torchvision==0.24.1
+torchaudio==2.9.1
+torch-geometric==2.7.0
+numpy==2.3.5
+scipy==1.17.0
+scikit-learn==1.8.0
+pandas==3.0.0
+networkx==3.6.1
+tqdm==4.67.3
+slither-analyzer==0.11.5
+crytic-compile==0.3.11
+solc-select==1.2.0

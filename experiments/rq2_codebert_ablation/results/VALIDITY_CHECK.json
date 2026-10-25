@@ -1,0 +1,85 @@
+{
+ "data": "validation split only",
+ "runs": [
+  {
+   "arm": "nocodebert",
+   "seed": 201,
+   "status": "valid",
+   "val_auc": 0.8207774337805298,
+   "one_side_prediction": false,
+   "slot": 201
+  },
+  {
+   "arm": "nocodebert",
+   "seed": 202,
+   "status": "valid",
+   "val_auc": 0.8672170622635019,
+   "one_side_prediction": false,
+   "slot": 202
+  },
+  {
+   "arm": "nocodebert",
+   "seed": 203,
+   "status": "valid",
+   "val_auc": 0.8768489852081184,
+   "one_side_prediction": false,
+   "slot": 203
+  },
+  {
+   "arm": "nocodebert",
+   "seed": 204,
+   "status": "valid",
+   "val_auc": 0.8169934640522876,
+   "one_side_prediction": false,
+   "slot": 204
+  },
+  {
+   "arm": "nocodebert",
+   "seed": 205,
+   "status": "valid",
+   "val_auc": 0.8723770209838321,
+   "one_side_prediction": false,
+   "slot": 205
+  },
+  {
+   "arm": "ctrl_codebert",
+   "seed": 201,
+   "status": "valid",
+   "val_auc": 0.8603371173030616,
+   "one_side_prediction": false,
+   "slot": 201
+  },
+  {
+   "arm": "ctrl_codebert",
+   "seed": 202,
+   "status": "valid",
+   "val_auc": 0.8761609907120743,
+   "one_side_prediction": false,
+   "slot": 202
+  },
+  {
+   "arm": "ctrl_codebert",
+   "seed": 203,
+   "status": "valid",
+   "val_auc": 0.8200894392844857,
+   "one_side_prediction": false,
+   "slot": 203
+  },
+  {
+   "arm": "ctrl_codebert",
+   "seed": 204,
+   "status": "valid",
+   "val_auc": 0.8826969384244926,
+   "one_side_prediction": false,
+   "slot": 204
+  },
+  {
+   "arm": "ctrl_codebert",
+   "seed": 205,
+   "status": "valid",
+   "val_auc": 0.8507051943584452,
+   "one_side_prediction": false,
+   "slot": 205
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+# CodeBERT environment (snacs-codebert): Python 3.8.20. Used only for
+# Step_2_Preprocessing/codebert_embed.py and experiments/inference_cost/scripts/run_codebert.sh.
+#   conda create -n snacs-codebert python=3.8.20 -y && conda activate snacs-codebert
+#   pip install -r requirements-codebert.txt
+--extra-index-url https://download.pytorch.org/whl/cu117
+torch==1.13.1+cu117
+transformers==4.26.1
+tokenizers==0.13.3
+huggingface-hub==0.36.0
+numpy==1.21.6

@@ -1,0 +1,17 @@
+{
+ "slots": {
+  "201": 201,
+  "202": 202,
+  "203": 203,
+  "204": 206,
+  "205": 205
+ },
+ "replacements": [
+  {
+   "slot": 204,
+   "failed_seed": 204,
+   "replaced_by": 206,
+   "reason": "training collapse on validation (constant prediction, validation AUC 0.5) in two attempts"
+  }
+ ]
+}

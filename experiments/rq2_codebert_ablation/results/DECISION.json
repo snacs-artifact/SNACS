@@ -1,0 +1,28 @@
+{
+ "decided_at": "2026-09-17T18:36:12+05:30",
+ "split_used": "val (108 contracts); no test data read",
+ "protocol_sha256": {
+  "PROTOCOL.md": "4ddde8de65841e96027c4c1c259b6792c9922c33d0b90111d5d66c0b7d46a4b9",
+  "protocol.json": "68c8c9da286956a505d2fb13e810b96ce4b4c6b26284d5b543e2675af6d54881",
+  "PROTOCOL_AMENDMENT_1.md": "fc3b7246975ee253ad0763bed29580475a7a78a466c5337d61962dd640bef704"
+ },
+ "validation_json_sha256": "432b691cf66a34b5a30029c639dcf4085e1d3ca22dc04be734bd78d9158ceec4",
+ "delta_f1_val": 0.02064220183486254,
+ "delta_f1_val_ci95": [
+  -0.02003182319482781,
+  0.06882107325896893
+ ],
+ "delta_auc_val": -0.0020639834881320818,
+ "delta_auc_val_ci95_descriptive": [
+  -0.026041666666666633,
+  0.021634615384615308
+ ],
+ "bootstrap_resamples_used": 10000,
+ "criteria": {
+  "delta_f1_val > 0": true,
+  "delta_f1_val_ci95_low > 0": false,
+  "delta_auc_val >= 0": false
+ },
+ "decision": "retain_codebert",
+ "selected_architecture": "codebert (vfinal_work stays final)"
+}
